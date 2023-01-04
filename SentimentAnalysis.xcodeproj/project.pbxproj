@@ -11,6 +11,7 @@
 		DF79DCAF2965418200F94F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79DCAE2965418200F94F5F /* ContentView.swift */; };
 		DF79DCB12965418200F94F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF79DCB02965418200F94F5F /* Assets.xcassets */; };
 		DF79DCB42965418200F94F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF79DCB32965418200F94F5F /* Preview Assets.xcassets */; };
+		DF79DCBB296543F200F94F5F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79DCBA296543F200F94F5F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF79DCAE2965418200F94F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF79DCB02965418200F94F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF79DCB32965418200F94F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF79DCBA296543F200F94F5F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DF79DCAC2965418200F94F5F /* SentimentAnalysisApp.swift */,
 				DF79DCAE2965418200F94F5F /* ContentView.swift */,
+				DF79DCBA296543F200F94F5F /* ViewModel.swift */,
 				DF79DCB02965418200F94F5F /* Assets.xcassets */,
 				DF79DCB22965418200F94F5F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF79DCAF2965418200F94F5F /* ContentView.swift in Sources */,
+				DF79DCBB296543F200F94F5F /* ViewModel.swift in Sources */,
 				DF79DCAD2965418200F94F5F /* SentimentAnalysisApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
